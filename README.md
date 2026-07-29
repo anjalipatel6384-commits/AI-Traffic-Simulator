@@ -37,3 +37,16 @@ AI-Traffic-Simulator/
 
 ```bash
 python main.py
+## 📸 Screenshots
+
+### 🌞 Normal Traffic
+![Normal Traffic](screenshots/Screenshot%20%28150%29.png)
+
+### 🌙 Night Mode
+![Night Mode](screenshots/Screenshot%20%28151%29.png)
+
+### 🌧️ Rain Mode
+![Rain Mode](screenshots/Screenshot%20%28152%29.png)
+
+### 🧠 AI Traffic Mode
+![AI Traffic](screenshots/Screenshot%20%28153%29.png)
