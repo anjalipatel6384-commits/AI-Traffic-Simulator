@@ -1,52 +1,87 @@
 # 🚦 AI Traffic Simulator
 
-An AI-powered traffic simulation system built with Python and Pygame.
+An AI-powered traffic simulation system built with **Python and Pygame**, designed to simulate intelligent urban traffic behavior with adaptive traffic signals, vehicle management, and real-time traffic monitoring.
 
 ## ✨ Features
 
-- 🚗 Intelligent vehicle management
+- 🚗 Real-time vehicle simulation
 - 🚦 Adaptive traffic signal control
-- 🛑 Red-light vehicle stopping
-- 🟡 Yellow-light vehicle slowing
+- 🛑 Vehicles stop during red signals
+- 🟡 Vehicles slow down during yellow signals
 - 🚘 Vehicle spacing and collision prevention
-- 🌦️ Weather simulation modes
 - 🧠 Intelligent traffic control logic
-- 🎮 Real-time traffic simulation
+- 📊 Real-time traffic density monitoring
+- 🌙 Night mode
+- 🌧️ Rain mode
+- 🚑 Emergency mode
+- 🎮 Manual and AI traffic control modes
+- ⏱️ Dynamic signal countdown
+- 📈 Real-time vehicle statistics
+
+## 🧠 Intelligent Traffic Control
+
+The simulator monitors traffic conditions at the intersection and uses traffic information to control signal timing.
+
+The dashboard provides real-time information such as:
+
+- Traffic signal state
+- Current and next phase
+- Signal countdown
+- Vehicle queues from each direction
+- Traffic density
+- Green-light duration
+- Spawned vehicles
+- Passed vehicles
+- Active vehicles
+
+## 🚦 Traffic Signal Behavior
+
+The simulator models realistic traffic signal behavior:
+
+- 🔴 **Red:** Vehicles stop before the intersection.
+- 🟡 **Yellow:** Vehicles slow down before continuing.
+- 🟢 **Green:** Vehicles proceed through the intersection.
+
+Vehicle spacing logic helps prevent vehicles from overlapping while moving through the simulation.
+
+## 🌦️ Simulation Modes
+
+### 🌙 Night Mode
+
+Simulates traffic conditions during nighttime.
+
+### 🌧️ Rain Mode
+
+Simulates traffic during rainy conditions.
+
+### 🚑 Emergency Mode
+
+Provides an emergency traffic simulation mode for handling priority situations.
+
+### 🧠 AI Mode
+
+Enables intelligent traffic-control behavior based on the current simulation conditions.
 
 ## 🛠️ Technologies Used
 
-- Python
-- Pygame
+- **Python**
+- **Pygame**
 
 ## 📂 Project Structure
 
 ```text
 AI-Traffic-Simulator/
+│
 ├── main.py
 ├── simulation.py
 ├── traffic_signal.py
 ├── vehicles.py
 ├── config.py
-└── .gitignore
-## ▶️ How to Run
-
-1. Clone the repository.
-2. Open the project folder in a terminal.
-3. Activate the virtual environment.
-4. Run the simulator:
-
-```bash
-python main.py
-## 📸 Screenshots
-
-### 🌞 Normal Traffic
-![Normal Traffic](screenshots/Screenshot%20%28150%29.png)
-
-### 🌙 Night Mode
-![Night Mode](screenshots/Screenshot%20%28151%29.png)
-
-### 🌧️ Rain Mode
-![Rain Mode](screenshots/Screenshot%20%28152%29.png)
-
-### 🧠 AI Traffic Mode
-![AI Traffic](screenshots/Screenshot%20%28153%29.png)
+├── screenshots/
+│   ├── Screenshot (150).png
+│   ├── Screenshot (151).png
+│   ├── Screenshot (152).png
+│   └── Screenshot (153).png
+│
+├── .gitignore
+└── README.md
